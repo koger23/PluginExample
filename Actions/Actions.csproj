@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE8A33E8-FDF6-4032-993F-2954F62E0545}</ProjectGuid>
+    <ProjectGuid>{E9B6D8D1-3296-47D5-AC35-1760FF8F75B8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>kogerohu</RootNamespace>
-    <AssemblyName>kogerohu</AssemblyName>
+    <RootNamespace>Actions</RootNamespace>
+    <AssemblyName>Actions</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -91,12 +91,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContactCopyCompanyPhone.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bin\Debug\" />
-    <Folder Include="bin\Release\" />
+    <Compile Include="TextToUpperCase.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
